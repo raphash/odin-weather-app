@@ -1,0 +1,15 @@
+{
+  "name": "odin-weather-app",
+  "version": "0.1.0",
+  "description": "The Odin Project - Weather App.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphash/odin-weather-app.git"
+  },
+  "author": "raphash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphash/odin-weather-app/issues"
+  },
+  "homepage": "https://github.com/raphash/odin-weather-app#readme"
+}
