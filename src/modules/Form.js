@@ -1,10 +1,16 @@
 import { getWeatherData, filterWeatherData } from "./Weather";
+import { createInfoCard } from "./Info";
 
 // Shows location data in console
 async function showData(location) {
   try {
     const data = filterWeatherData(await getWeatherData(location.value));
-    console.log(data);
+
+    createInfoCard(
+      data.resolvedAddress,
+      data.currentConditions.temp,
+      data.currentConditions.conditions,
+    );
   } catch (error) {
     if (error.code == 400) {
       console.error("Location not found!");
