@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.2](https://github.com/raphash/odin-weather-app/compare/v0.2.1...v0.2.2) (2025-01-28)
+
+
+### Bug Fixes
+
+* **typo:** incorrect typo fixed in info.js ([bea8311](https://github.com/raphash/odin-weather-app/commit/bea83113efb8d7616fbda4695e0d46aa4a739aba))
+
 ## [0.2.1](https://github.com/raphash/odin-weather-app/compare/v0.2.0...v0.2.1) (2025-01-28)
 
 
