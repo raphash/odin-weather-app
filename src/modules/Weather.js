@@ -8,6 +8,7 @@ export async function getWeatherData(location) {
   // Fetch the api by key and unit
   const response = await fetch(
     `${url.path}${location}?unitGroup=${url.unit}&key=${url.key}&contentType=json`,
+    { mode: "cors" },
   );
 
   if (!response.ok) {
