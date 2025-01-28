@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.3.0](https://github.com/raphash/odin-weather-app/compare/v0.2.2...v0.3.0) (2025-01-28)
+
+
+### Features
+
+* added css styles to website ([de6e5ce](https://github.com/raphash/odin-weather-app/commit/de6e5ceef9aad0c8fec3231cbda3b94faec09af4))
+
 ## [0.2.2](https://github.com/raphash/odin-weather-app/compare/v0.2.1...v0.2.2) (2025-01-28)
 
 
