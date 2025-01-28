@@ -5,13 +5,18 @@ const url = {
 };
 
 export async function getWeatherData(location) {
-  // Fetch the api by key and unit.
+  // Fetch the api by key and unit
   const response = await fetch(
     `${url.path}${location}?unitGroup=${url.unit}&key=${url.key}&contentType=json`,
   );
 
   if (!response.ok) {
-    throw new Error(`${response.status}`);
+    const error = new Error(`Response Status: ${response.status}`);
+
+    // Assign code to error
+    error.code = response.status;
+
+    throw error;
   }
 
   return await response.json();
