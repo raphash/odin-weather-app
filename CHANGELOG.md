@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.0](https://github.com/raphash/odin-weather-app/compare/v0.1.0...v0.2.0) (2025-01-28)
+
+
+### Features
+
+* createInfoCard to show data as DOM elements ([b3f127f](https://github.com/raphash/odin-weather-app/commit/b3f127f561d5a156d0e5162a30f11c7073a16c98))
+
 ## 0.1.0 (2025-01-28)
 
 
