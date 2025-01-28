@@ -16,3 +16,8 @@ export async function getWeatherData(location) {
 
   return await response.json();
 }
+
+export function filterWeatherData(weatherData) {
+  const { resolvedAddress, currentConditions } = weatherData;
+  return { resolvedAddress, currentConditions };
+}
