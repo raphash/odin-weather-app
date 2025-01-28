@@ -13,9 +13,9 @@ async function showData(location) {
     );
   } catch (error) {
     if (error.code == 400) {
-      console.error("Location not found!");
+      alert("Location not found!");
     } else {
-      console.error(error);
+      alert(error);
     }
   }
 }
