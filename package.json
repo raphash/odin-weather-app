@@ -1,6 +1,6 @@
 {
   "name": "odin-weather-app",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The Odin Project - Weather App.",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.1](https://github.com/raphash/odin-weather-app/compare/v0.2.0...v0.2.1) (2025-01-28)
+
+
+### Bug Fixes
+
+* add mode 'cors' to apis fetch ([37b1106](https://github.com/raphash/odin-weather-app/commit/37b1106557483fc775772104633d2542e1abb1a7))
+
 ## [0.2.0](https://github.com/raphash/odin-weather-app/compare/v0.1.0...v0.2.0) (2025-01-28)
 
 
