@@ -10,9 +10,9 @@ export function createInfoCard(location, temperature, conditions) {
 
   card.classList.add("card");
 
-  card.innerHTML = `<p class="card-location">Location: ${location}</p>
-                        <p class="card-temperature">Temperature: ${temperature}</p>
-                        <p class="card-conditions">Condition: ${conditions}</p>`;
+  card.innerHTML = `<p class="card-location">${location}</p>
+                    <p class="card-temperature"><span>Temperature: </span>${temperature} °C</p>
+                    <p class="card-conditions"><span>Condition: </span>${conditions}</p>`;
 
   document.body.appendChild(card);
 }
