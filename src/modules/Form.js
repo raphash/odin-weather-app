@@ -2,9 +2,9 @@ import { getWeatherData, filterWeatherData } from "./Weather";
 import { createInfoCard } from "./Info";
 
 // Shows location data in console
-async function showData(location) {
+export async function showData(location) {
   try {
-    const data = filterWeatherData(await getWeatherData(location.value));
+    const data = filterWeatherData(await getWeatherData(location));
 
     createInfoCard(
       data.resolvedAddress,
@@ -39,7 +39,7 @@ export async function renderForm() {
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    if (form.checkValidity()) showData(location);
+    if (form.checkValidity()) showData(location.value);
   });
 
   document.body.appendChild(form);

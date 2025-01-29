@@ -1,4 +1,5 @@
 import "./styles.css";
-import { renderForm } from "./modules/Form";
+import { renderForm, showData } from "./modules/Form";
 
 renderForm();
+showData("Antarctica");
