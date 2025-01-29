@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/raphash/odin-weather-app/compare/v0.3.0...v1.0.0) (2025-01-29)
+
+
+### Features
+
+* render a default wheater when open app ([8b4ba72](https://github.com/raphash/odin-weather-app/commit/8b4ba7230303d59ac2bfc3bd78f30686fb98d16c))
+
+
+### Bug Fixes
+
+* Show alert instead of console.error when catch ([8d29588](https://github.com/raphash/odin-weather-app/commit/8d295881f865a2aff41339bff0e05277ecc5725a))
+
 ## [0.3.0](https://github.com/raphash/odin-weather-app/compare/v0.2.2...v0.3.0) (2025-01-28)
 
 
